@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+article{
+    background: #ca304a;
+}
+.chio{
+    background: url("../img/fondo.jpg");
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    max-height: 300px;
+    background:rgb(21, 73, 124);
+    padding: 10px;
+    background: purple;   
+}
+a{
+    text-decoration: none;
+}
+.areaPrincipal{
+    height: 300px;
+    width: 1000px;
+    background-color: rgb(251, 73, 103);
+}
+p{
+    text-align: left;
+}
+.descripcion{
+    color: rgb(185, 211, 39);
+}
+nav{
+    background: rgb(36, 35, 35);
+    color: white; 
+    height: 50px;
+    width: 100%;
+}
+nav ul li{ 
+    padding: 15px 20px 0 20px;
+    list-style: none;
+    display: inline;
+}
+nav ul li a:hover{
+    background: #252826;
+    color: rgb(185, 211, 39);
+}
+
+#color{
+    background: black;
+    size: 30px;
+}
+article{
+    float: left;
+}
